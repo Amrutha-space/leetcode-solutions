@@ -1,12 +1,3 @@
-/*
- * LeetCode Solution: 1. Two sum
- * Difficulty: Medium
- * Language: python
- * URL: https://leetcode.com/problems/two-sum/submissions/1920145973/
- * Date: 15/02/2026, 20:12:41
- * Solution: Initial
- */
-
 class Solution {
 public:
     vector<int> twoSum(vector<int>& nums, int target) {
@@ -21,3 +12,5 @@ public:
         return {};
     }
 };
+
+// Solution 1771166563593
