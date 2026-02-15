@@ -1,22 +1,16 @@
-/*
- * LeetCode Solution: 1. Two sum
- * Difficulty: Medium
- * Language: python
- * URL: https://leetcode.com/problems/two-sum/submissions/1920210441/
- * Date: 15/02/2026, 21:38:13
- * Solution: Initial
- */
-
 class Solution {
 public:
-    vector<int> twoSum(vector<int>& 
-nums, int target) {
-        unordered_map<int, int> mp; // 
-value -> index
-        for (int i = 0; i < nums.size(); 
-i++) {
-            int complement = target - 
-nums[i];
-            if (mp.find(complement) != 
-mp.end()) {
-                return {mp[complement],
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> mp; // value -> index
+        for (int i = 0; i < nums.size(); i++) {
+            int complement = target - nums[i];
+            if (mp.find(complement) != mp.end()) {
+                return {mp[complement], i};
+            }
+            mp[nums[i]] = i;
+        }
+        return {};
+    }
+};
+
+// Solution 1771171715529
