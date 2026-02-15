@@ -1,12 +1,3 @@
-/*
- * LeetCode Solution: M[i,j] --> M'[j,N-1-i]
- * Difficulty: Medium
- * Language: python
- * URL: https://leetcode.com/problems/rotate-image/submissions/1920122433/
- * Date: 15/02/2026, 19:42:56
- * Solution: Initial
- */
-
 void rotate(vector<vector<int>>& matrix) {
        int n=matrix.size();
 
@@ -22,3 +13,5 @@ void rotate(vector<vector<int>>& matrix) {
 };
 public:
 class Solution {
+
+// Solution 1771164851770
