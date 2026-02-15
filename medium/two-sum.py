@@ -12,8 +12,5 @@ nums[i];
 mp.end()) {
                 return {mp[complement], 
 i};
-            }
-            mp[nums[i]] = i;
-        }
 
-// Solution 1771170668796
+// Solution 1771170669896
