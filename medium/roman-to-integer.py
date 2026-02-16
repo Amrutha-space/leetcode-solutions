@@ -1,12 +1,3 @@
-/*
- * LeetCode Solution: Roman to Integer
- * Difficulty: Medium
- * Language: python
- * URL: https://leetcode.com/problems/roman-to-integer/submissions/1921098567/
- * Date: 16/02/2026, 19:37:58
- * Solution: Initial
- */
-
 class Solution:
     def romanToInt(self, s: str) -> int:
         roman = { "I" : 1, "V" : 5, "X" : 10, "L" : 50, "C" : 100, "D" : 500, "M" : 1000 }
@@ -19,3 +10,5 @@ class Solution:
                 res += roman[s[i]]
 
         return res
+
+// Solution 1771250964225
