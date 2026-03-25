@@ -1,12 +1,3 @@
-/*
- * LeetCode Solution: Longest Common Prefix
- * Difficulty: Medium
- * Language: c
- * URL: https://leetcode.com/problems/longest-common-prefix/submissions/1920211581/
- * Date: 15/02/2026, 21:39:30
- * Solution: Initial
- */
-
 class Solution:
     def longestCommonPrefix(self, strs: List[str]) -> str:
         res = ""
@@ -18,3 +9,5 @@ class Solution:
             res += strs[0][i]
 
         return res
+
+// Solution 1774460241863
