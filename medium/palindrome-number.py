@@ -1,20 +1,12 @@
-/*
- * LeetCode Solution: Palindrome Number
- * Difficulty: Medium
- * Language: python
- * URL: https://leetcode.com/problems/palindrome-number/submissions/1926009499/
- * Date: 21/02/2026, 11:34:21
- * Solution: Initial
- */
+while (x != 0) {
+            int digit = x % 10;
+            rev = rev * 10 + digit;
+        int original = x;
+        long rev = 0;
 
-n=n/10;
-        revNum=revNum*10+dig;
-        }
-            return 0;
-        if (revNum > INT_MAX/10 || revNum < INT_MIN/10){
-        int dig = n%10;
-    while(n!=0){
-    int revNum=0;
-int reverse(int n){
+        if (x < 0) return false;
 public:
+    bool isPalindrome(int x) {
 class Solution {
+
+// Solution 1774891856678
